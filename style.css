@@ -36,7 +36,7 @@ body {
     height: 50rem;
 }
 
-.instagrem-continue {
+.instagram-continue {
     display: flex;
     align-items: center; /* Posição horizontal */
     justify-content: space-around; /* Posição vertical */
@@ -56,4 +56,23 @@ body {
     border: 1px solid lightgray;   
 }
 
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
 
