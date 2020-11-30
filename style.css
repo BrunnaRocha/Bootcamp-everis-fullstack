@@ -35,3 +35,13 @@ body {
 .instagram-phone img {
     height: 50rem;
 }
+
+.instagrem-continue {
+    display: flex;
+    align-items: center; /* Posição horizontal */
+    justify-content: space-around; /* Posição vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
