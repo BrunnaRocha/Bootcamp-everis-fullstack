@@ -45,3 +45,15 @@ body {
     min-height: 34rem;
 }
 
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;   
+}
+
+
