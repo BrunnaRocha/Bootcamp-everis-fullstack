@@ -29,10 +29,10 @@ const pets = [
 
 const mapPets = pets.map((pet) => {
     return pet.name 
-    // caso queira todas as infos é só mudar para return pets
+    // caso queira todas as infos é só mudar para return pet
 })
 
-console.log(mapPets)
+console.log(mapPets);
 
 // Quero descobrir como cancatenar duas ou mais informações, por exemplo:
 // pet.type + pet.name + pet.age + pet.weight 
